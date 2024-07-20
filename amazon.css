@@ -1,0 +1,354 @@
+*{
+margin: 0;
+padding: 0;
+border:border-box;
+}
+.navbar{
+    display: flex;
+    height:60px;
+    background-color: black;
+    justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    width: 128.73px;
+    display: flex;
+    padding: 1px 8px 0px 6px;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.img{
+
+    height: 48px;
+    width: 110px;
+    background-size: cover;
+}
+.in{
+    color: white;
+    font-size: 1.3em;
+    position: relative;
+    bottom: 4px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.delivering{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 202px;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+    
+}
+.ayodhya{
+    width: 164.94px;
+    height: 14px;
+    font-size: 13px;
+    color: #CCCCCC;
+    position: relative;
+    left: 15px;
+    top: 8px;
+}
+.location{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.india{
+    height: 16px;
+    width: 164.94px;
+    padding: 5px 0px 1px;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    align-self: center;
+}
+i{
+    height: 18px;
+    width: 15px;
+    margin: 8px 0px 0px 0px ;
+}
+.icon{
+    width: 750px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    background: rgb(150, 224, 255);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.search{
+    width: 752.49px;
+    height: 60px;
+    padding: 10px 4px 10px 3px;
+    display: flex;
+    border-radius: 5px;
+}
+.option{
+    width: 51.6px;
+    height: 40px;
+    padding: 0px 0px 0px 5px;
+    font-size: 14px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+    align-items: center;
+    align-content: center;
+    font-size: small;
+}
+.enter{
+    width: 648.89px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.hello{
+    width: 131.53px;
+    height: 50px;
+    padding: 0px 9px 0px;
+    font-size: 14px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+.list{
+    font-size: 15px;
+    font-weight: 600;
+}
+.return{
+    height: 50px;
+    width: 76.95px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.returns{
+    font-weight: 500;
+    
+}
+.orders{
+    font-weight: 700;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+}
+.cart{
+    width: 84px;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.cart i{
+    font-size: 30px;
+}
+.cartA{
+width: 28px;
+height: 15px;
+position: relative;
+left: 20px;
+top: 18px;
+font-size: 16px;
+font-weight: 600;
+}
+.navbar2{
+    height: 39px;
+    background-color: #171c1c;
+    display: flex;
+    justify-content: space-between;
+}
+.all1{
+    padding: 0;
+    margin: 0;
+    width: 58.41px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.all1 i{
+    padding: 0;
+    margin: 0;
+    width: 17px;
+    height: 14px;
+}
+.all{
+    width: 23.41px;
+    height: 12px;
+}
+.prime{
+    width: 1000px;
+    height: 39px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prime p{
+    font-size:15px ;
+    font-weight: 600;
+}
+.primeday{
+width: 400px;
+height: 39px;
+background-image: url(primeday.jpg);
+background-size: cover;
+}
+.box{
+    height: 507px;
+    width: 1530px;
+    background-image: url(bgamazon.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: space-around;
+}
+.Box1{
+    width: 350px;
+    height: 420px;
+    border: solid rgb(242, 235, 235);
+    position: relative;
+    top: 255px;
+    background: white;
+    z-index: 11;
+    }
+.box2{
+    height: 507px;
+    width: 1530px;
+    background-color: aliceblue;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 60px;
+}
+.box11{
+    width: 290px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img1{
+width: 266px;
+height: 138px;
+    display: flex;
+    justify-content: space-between;
+}
+.kurta{
+width: 128px;
+height: 120px;
+display: flex;
+flex-direction: column;
+}
+img{
+    width: 115px;
+    height: 102px;
+
+}
+.img2{
+    width: 250px;
+height: 138px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    text-align: center;
+}
+.bottom{
+    width: 1530px;
+    height: 773px;
+    background: #18432b;
+    position: relative;
+    top: 120px;
+}
+.top{
+    height: 50px;
+    width: 1530px;
+    padding: 15px 0px;
+    font-size: 18px;
+    text-align: center;
+    background: #263636;
+    color: white;
+}
+.details{
+    width: 1530px;
+    height:450px ;
+    background: #385454;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size:15px ;
+}
+.get{
+    width: 150px;
+    height: 268px;
+    padding: 0px 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    
+}
+.connect{
+    width: 150px;
+    height: 268px;
+    padding: 0px 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+   
+}
+.make{
+    width: 150px;
+    height: 268px;
+    padding: 0px 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    
+}
+.let{
+    width: 150px;
+    height: 268px;
+    padding: 0px 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.logo2{
+    height: 68px;
+    width: 1530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.logo2 img{
+    width: 90px;
+    height: 68px;
+}
+.copy{
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+}
